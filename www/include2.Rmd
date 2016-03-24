@@ -1,0 +1,5 @@
+Area: $$ A(x,y,z)= 2xy+2\sqrt{{z^{2}}-{x^{2}}} $$
+Constraint: $$ g(x,y,z) = x+y+z-p$$
+Lagrangian: $$\bigtriangledown A(x,y,z) +\lambda \bigtriangledown g(x,y,z) =0$$
+therefore,$$ \begin{cases} x= \frac{1 }{2}\lambda \\ y= \frac{3+\sqrt{3}}{6}\lambda\\ z= \frac{1}{\sqrt{3}}\lambda \end{cases}$$
+$$\because x+y+z=p,\therefore\lambda =\frac{2p}{2+\sqrt{3}}\\ $$ We can find the value for when p=100:$$ \begin{cases} & x= (2-\sqrt{3})p=26.795\\ & y=\frac{3-\sqrt{3}}{3}p=42.265\\ & z=\frac{4\sqrt{3}-6}{3}p= 30.940 \end{cases}\\$$
